@@ -26,7 +26,7 @@ time = "0.3"
 criterion = "0.3"
 
 [features]
-default = ["use_pem"]
+default = ["none"]
 use_pem = ["pem", "simple_asn1"]
 none = []
 
