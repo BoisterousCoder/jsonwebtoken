@@ -28,6 +28,7 @@ criterion = "0.3"
 [features]
 default = ["use_pem"]
 use_pem = ["pem", "simple_asn1"]
+none = []
 
 [[bench]]
 name = "jwt"
